@@ -1,8 +1,5 @@
 #!/bin/sh
 
-version="0.1"
-version_date="202103"
-
 # check if root
 if [ $(id -u) -ne 0 ] ; then echo "please run as root" ; exit 1 ; fi
 
